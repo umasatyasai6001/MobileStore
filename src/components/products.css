@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+    transform: translate(0px 10px);
+
+}
+/* @keyframes moveDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100vh); /* 100% of the viewport height */
+    
+   */
+  
+   .arrow {
+    width: 30px;
+    height: 35px;
+    margin-left: 900px;
+    border: 2px solid black;
+    /* Uncomment the line below if you want the arrow to animate from top to bottom */
+    /* animation: moveDown 5s linear infinite; */
+  }
+  
+  .electronics {
+    border: 2px solid black;
+    width: 200px; /* Ensure initial width is defined */
+    background-color: aqua;
+    transition: width 3s;
+  }
+  
+  .electronics:hover {
+    width: 800px;
+    cursor: pointer;
+  }
+  
+  .transition {
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid black;
+    margin-top: 2px;
+  }
+  
+  /* Commented-out code for reference */
+  /*
+  .transition:hover {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .arrow:hover {
+    display: none;
+    cursor: pointer;
+  }
+  */
+  
+
+.dataitem {
+    /* background-color: ; */
+    width: 30%;
+    display: flex; /* Uncommented these lines */
+    flex-direction: column; /* Adjusted to column for better readability */
+    justify-content: space-between; /* Adjusted to center for better readability */
+    align-items: center; /* Adjusted to center for better readability */
+    padding: 10px; /* Added padding for better appearance */
+    box-sizing: border-box; /* Added to ensure padding doesn't affect overall width */
+    /* border: 1px solid black */
+
+}
+.images{
+    width:100px;
+}
+button{
+    padding: 8px 8px;
+    border-radius: 10px;
+    background-color: blue;
+    max-width: 100px;
+    cursor:pointer;
+}
+
+
+
+
